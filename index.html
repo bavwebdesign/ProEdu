@@ -122,12 +122,7 @@ flexibility(document.documentElement);
 					}
 				}
 			</style>
-	<style>
-/* Forțează stiloul să se comporte ca restul iconițelor */
-.e-fas-pen-nib path {
-  fill: currentColor !important;
-}
-</style>
+	
 			<link rel="icon" href="/wp-content/uploads/2025/08/cropped-logo_proedu_bun-32x32.png" sizes="32x32">
 <link rel="icon" href="/wp-content/uploads/2025/08/cropped-logo_proedu_bun-192x192.png" sizes="192x192">
 <link rel="apple-touch-icon" href="/wp-content/uploads/2025/08/cropped-logo_proedu_bun-180x180.png">
@@ -140,96 +135,188 @@ flexibility(document.documentElement);
 		Skip to content</a>
 
 <div class="hfeed site" id="page">
-			<header class="site-header header-main-layout-1 ast-primary-menu-enabled ast-logo-title-inline ast-hide-custom-menu-mobile ast-builder-menu-toggle-icon ast-mobile-header-inline" id="masthead" itemtype="https://schema.org/WPHeader" itemscope="itemscope" itemid="#masthead">
-			<div id="ast-desktop-header" data-toggle-type="dropdown">
-		<div class="ast-main-header-wrap main-header-bar-wrap ">
-		<div class="ast-primary-header-bar ast-primary-header main-header-bar site-header-focus-item" data-section="section-primary-header-builder">
-						<div class="site-primary-header-wrap ast-builder-grid-row-container site-header-focus-item ast-container" data-section="section-primary-header-builder">
-				<div class="ast-builder-grid-row ast-builder-grid-row-has-sides ast-builder-grid-row-no-center">
-											<div class="site-header-primary-section-left site-header-section ast-flex site-header-section-left">
-								<div class="ast-builder-layout-element ast-flex site-header-focus-item" data-section="title_tagline">
-  <div class="site-branding ast-site-identity" itemtype="https://schema.org/Organization" itemscope="itemscope">
-    <span class="site-logo-img">
-      <a href="/" class="custom-logo-link" rel="home" aria-current="page">
-        <img 
-          width="200" 
-          height="200" 
-          src="/wp-content/uploads/2025/08/cropped-cropped-logo_proedu_bun-200x200.svg" 
-          class="custom-logo" 
-          alt="logo_proedu" 
-          decoding="async">
-      </a>
-    </span>
-    <div class="ast-site-title-wrap">
-      <span class="site-title" itemprop="name">
-        <a href="/" rel="home" itemprop="url">
-          <!-- Numele site-ului aici, dacă vrei -->
-        </a>
-      </span>
+  <header class="site-header header-main-layout-1 ast-primary-menu-enabled ast-logo-title-inline ast-hide-custom-menu-mobile ast-builder-menu-toggle-icon ast-mobile-header-inline" 
+          id="masthead" 
+          itemtype="https://schema.org/WPHeader" 
+          itemscope="itemscope" 
+          itemid="#masthead">
+
+    <div id="ast-desktop-header" data-toggle-type="dropdown">
+      <div class="ast-main-header-wrap main-header-bar-wrap">
+        <div class="ast-primary-header-bar ast-primary-header main-header-bar site-header-focus-item" 
+             data-section="section-primary-header-builder">
+             
+          <div class="site-primary-header-wrap ast-builder-grid-row-container site-header-focus-item ast-container" 
+               data-section="section-primary-header-builder">
+
+            <div class="ast-builder-grid-row ast-builder-grid-row-has-sides ast-builder-grid-row-no-center">
+              
+              <!-- Stânga: logo + titlu -->
+              <div class="site-header-primary-section-left site-header-section ast-flex site-header-section-left">
+                <div class="ast-builder-layout-element ast-flex site-header-focus-item" data-section="title_tagline">
+                  
+                  <div class="site-branding ast-site-identity" 
+                       itemtype="https://schema.org/Organization" 
+                       itemscope="itemscope">
+                    
+                    <span class="site-logo-img">
+                      <a href="/" class="custom-logo-link" rel="home" aria-current="page">
+                        <img 
+                          width="200" 
+                          height="200" 
+                          src="/wp-content/uploads/2025/08/cropped-cropped-logo_proedu_bun-200x200.svg" 
+                          class="custom-logo" 
+                          alt="logo_proedu" 
+                          decoding="async">
+                      </a>
+                    </span>
+
+                    <div class="ast-site-title-wrap">
+                      <span class="site-title" itemprop="name">
+                        <a href="/" rel="home" itemprop="url">
+                          <!-- Numele site-ului aici, dacă vrei -->
+                        </a>
+                      </span>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <!-- Dreapta: meniu -->
+              <div class="site-header-primary-section-right site-header-section ast-flex ast-grid-right-section">
+                <div class="ast-builder-menu-1 ast-builder-menu ast-flex ast-builder-menu-1-focus-item ast-builder-layout-element site-header-focus-item" 
+                     data-section="section-hb-menu-1">
+                     
+                  <div class="ast-main-header-bar-alignment">
+                    <div class="main-header-bar-navigation">
+                      
+                      <nav class="site-navigation ast-flex-grow-1 navigation-accessibility site-header-focus-item" 
+                           id="primary-site-navigation-desktop" 
+                           aria-label="Primary Site Navigation" 
+                           itemtype="https://schema.org/SiteNavigationElement" 
+                           itemscope="itemscope">
+                           
+                        <div class="main-navigation ast-inline-flex">
+                          <ul id="ast-hf-menu-1" 
+                              class="main-header-menu ast-menu-shadow ast-nav-menu ast-flex submenu-with-border ast-menu-hover-style-underline stack-on-mobile" 
+                              style="gap: 20px;">
+                              
+                            <li id="menu-item-27" class="menu-item">
+                              <a href="#Acasa" class="Acasa">Acasă</a>
+                            </li>
+                            <li id="menu-item-31" class="menu-item">
+                              <a href="#Despre" class="Despre">Despre</a>
+                            </li>
+                            <li id="menu-item-32" class="menu-item">
+                              <a href="#Servicii" class="Servicii">Servicii</a>
+                            </li>
+                            <li id="menu-item-33" class="menu-item">
+                              <a href="#Contact" class="Contact">Contact</a>
+                            </li>
+                            
+                          </ul>
+                        </div>
+                        
+                      </nav>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    
+  </header>
+</div>
+ <!-- Main Header Bar Wrap -->
+<div id="ast-mobile-header" class="ast-mobile-header-wrap" data-type="dropdown">
+  <div class="ast-main-header-wrap main-header-bar-wrap">
+    <div class="ast-primary-header-bar ast-primary-header main-header-bar site-primary-header-wrap site-header-focus-item ast-builder-grid-row-layout-default ast-builder-grid-row-tablet-layout-default ast-builder-grid-row-mobile-layout-default" data-section="section-primary-header-builder">
+      <div class="ast-builder-grid-row ast-builder-grid-row-has-sides ast-builder-grid-row-no-center">
+        <div class="site-header-primary-section-left site-header-section ast-flex site-header-section-left">
+          <div class="ast-builder-layout-element ast-flex site-header-focus-item" data-section="title_tagline">
+            <div class="site-branding ast-site-identity" itemtype="https://schema.org/Organization" itemscope="itemscope">
+              
+              <span class="site-logo-img">
+                <a href="/" class="custom-logo-link" rel="home" aria-current="page">
+                  <img 
+                    width="200" 
+                    height="200" 
+                    src="/wp-content/uploads/2025/08/cropped-cropped-logo_proedu_bun-200x200.png" 
+                    class="custom-logo" 
+                    alt="logo_proedu" 
+                    decoding="async" 
+                    srcset="/wp-content/uploads/2025/08/cropped-cropped-logo_proedu_bun-200x200.png 200w, 
+                            /wp-content/uploads/2025/08/cropped-cropped-logo_proedu_bun-300x300.png 300w, 
+                            /wp-content/uploads/2025/08/cropped-cropped-logo_proedu_bun-150x150.png 150w, 
+                            /wp-content/uploads/2025/08/cropped-cropped-logo_proedu_bun.png 512w" 
+                    sizes="(max-width: 200px) 100vw, 200px">
+                </a>
+              </span>
+              
+              <div class="ast-site-title-wrap">
+                <span class="site-title" itemprop="name">
+                  <a href="/" rel="home" itemprop="url"></a>
+                </span>
+              </div>
+              
+            </div> <!-- site-branding -->
+          </div> <!-- ast-builder-layout-element -->
+        </div> <!-- site-header-primary-section-left -->
+      </div> <!-- ast-builder-grid-row -->
+    </div> <!-- ast-primary-header-bar -->
+  </div> <!-- ast-main-header-wrap -->
+</div> <!-- ast-mobile-header -->
+
+			<!-- .site-branding -->
+																							<div class="site-header-primary-section-right site-header-section ast-flex ast-grid-right-section">
+  <div class="ast-builder-layout-element ast-flex site-header-focus-item" data-section="section-header-mobile-trigger">
+    <div class="ast-button-wrap">
+      <button type="button" class="menu-toggle main-header-menu-toggle ast-mobile-menu-trigger-minimal" aria-expanded="false" aria-label="Main menu toggle">
+        <span class="screen-reader-text">Main Menu</span>
+        <span class="mobile-menu-toggle-icon">
+          <span aria-hidden="true" class="ahfb-svg-iconset ast-inline-flex svg-baseline">
+            <svg class="ast-mobile-svg ast-menu-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path d="M3 13h18c0.552 0 1-0.448 1-1s-0.448-1-1-1h-18c-0.552 0-1 0.448-1 1s0.448 1 1 1zM3 7h18c0.552 0 1-0.448 1-1s-0.448-1-1-1h-18c-0.552 0-1 0.448-1 1s0.448 1 1 1zM3 19h18c0.552 0 1-0.448 1-1s-0.448-1-1-1h-18c-0.552 0-1 0.448-1 1s0.448 1 1 1z"></path>
+            </svg>
+          </span>
+          <span aria-hidden="true" class="ahfb-svg-iconset ast-inline-flex svg-baseline">
+            <svg class="ast-mobile-svg ast-close-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path d="M5.293 6.707l5.293 5.293-5.293 5.293c-0.391 0.391-0.391 1.024 0 1.414s1.024 0.391 1.414 0l5.293-5.293 5.293 5.293c0.391 0.391 1.024 0.391 1.414 0s0.391-1.024 0-1.414l-5.293-5.293 5.293-5.293c0.391-0.391 0.391-1.024 0-1.414s-1.024-0.391-1.414 0l-5.293 5.293-5.293-5.293c-0.391-0.391-1.024-0.391-1.414 0s-0.391 1.024 0 1.414z"></path>
+            </svg>
+          </span>
+        </span>
+      </button>
+    </div> <!-- ast-button-wrap -->
+  </div> <!-- ast-builder-layout-element -->
+</div> <!-- site-header-primary-section-right -->
+
+<div class="ast-mobile-header-content content-align-flex-start">
+  <div class="ast-builder-menu-mobile ast-builder-menu ast-builder-menu-mobile-focus-item ast-builder-layout-element site-header-focus-item" data-section="section-header-mobile-menu">
+    <div class="ast-main-header-bar-alignment">
+      <div class="main-header-bar-navigation">
+        <nav class="site-navigation ast-flex-grow-1 navigation-accessibility" id="ast-mobile-site-navigation" aria-label="Site Navigation" itemtype="https://schema.org/SiteNavigationElement" itemscope="itemscope">
+          <div id="ast-hf-mobile-menu" class="main-navigation">
+            <ul class="main-header-menu ast-nav-menu ast-flex submenu-with-border astra-menu-animation-fade stack-on-mobile">
+              <li class="page_item page-item-26 menu-item"><a href="#Contact" class="menu-link">Contact</a></li>
+              <li class="page_item page-item-24 menu-item"><a href="#Despre" class="menu-link">Despre</a></li>
+              <li class="page_item page-item-8 current-menu-item menu-item current-menu-item"><a href="#Acasa" class="menu-link">ProEdu</a></li>
+              <li class="page_item page-item-25 menu-item"><a href="#Servicii" class="menu-link">Servicii</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </div>
   </div>
 </div>
-
-				</a>
-			</span>
-						
-				</div>				</div>
-			<!-- .site-branding -->
-					</div>
-								</div>
-																								<div class="site-header-primary-section-right site-header-section ast-flex ast-grid-right-section">
-										<div class="ast-builder-menu-1 ast-builder-menu ast-flex ast-builder-menu-1-focus-item ast-builder-layout-element site-header-focus-item" data-section="section-hb-menu-1">
-			<div class="ast-main-header-bar-alignment"><div class="main-header-bar-navigation"><nav class="site-navigation ast-flex-grow-1 navigation-accessibility site-header-focus-item" id="primary-site-navigation-desktop" aria-label="Primary Site Navigation" itemtype="https://schema.org/SiteNavigationElement" itemscope="itemscope"><div class="main-navigation ast-inline-flex"><ul id="ast-hf-menu-1" class="main-header-menu ast-menu-shadow ast-nav-menu ast-flex submenu-with-border ast-menu-hover-style-underline stack-on-mobile" style="gap: 20px;">
-  <li id="menu-item-27" class="menu-item"><a href="#Acasa" class="Acasa">Acasă</a></li>
-  <li id="menu-item-31" class="menu-item"><a href="#Despre" class="Despre">Despre</a></li>
-  <li id="menu-item-32" class="menu-item"><a href="#Servicii" class="Servicii">Servicii</a></li>
-  <li id="menu-item-33" class="menu-item"><a href="#Contact" class="Contact">Contact</a></li>
-</ul>
-</div></nav></div></div>		</div>
-									</div>
-												</div>
-					</div>
-								</div>
-			</div>
-	</div> <!-- Main Header Bar Wrap -->
-<div id="ast-mobile-header" class="ast-mobile-header-wrap " data-type="dropdown">
-		<div class="ast-main-header-wrap main-header-bar-wrap">
-		<div class="ast-primary-header-bar ast-primary-header main-header-bar site-primary-header-wrap site-header-focus-item ast-builder-grid-row-layout-default ast-builder-grid-row-tablet-layout-default ast-builder-grid-row-mobile-layout-default" data-section="section-primary-header-builder">
-									<div class="ast-builder-grid-row ast-builder-grid-row-has-sides ast-builder-grid-row-no-center">
-													<div class="site-header-primary-section-left site-header-section ast-flex site-header-section-left">
-										<div class="ast-builder-layout-element ast-flex site-header-focus-item" data-section="title_tagline">
-							<div class="site-branding ast-site-identity" itemtype="https://schema.org/Organization" itemscope="itemscope">
-					<span class="site-logo-img"><a href="/" class="custom-logo-link" rel="home" aria-current="page"><img width="200" height="200" src="/wp-content/uploads/2025/08/cropped-cropped-logo_proedu_bun-200x200.png" class="custom-logo" alt="logo_proedu" decoding="async" srcset="/wp-content/uploads/2025/08/cropped-cropped-logo_proedu_bun-200x200.png 200w, /wp-content/uploads/2025/08/cropped-cropped-logo_proedu_bun-300x300.png 300w, /wp-content/uploads/2025/08/cropped-cropped-logo_proedu_bun-150x150.png 150w, /wp-content/uploads/2025/08/cropped-cropped-logo_proedu_bun.png 512w" sizes="(max-width: 200px) 100vw, 200px"></a></span><div class="ast-site-title-wrap">
-						<span class="site-title" itemprop="name">
-				<a href="/" rel="home" itemprop="url">
-					
-				</a>
-			</span>
-						
-				</div>				</div>
-			<!-- .site-branding -->
-					</div>
-									</div>
-																									<div class="site-header-primary-section-right site-header-section ast-flex ast-grid-right-section">
-										<div class="ast-builder-layout-element ast-flex site-header-focus-item" data-section="section-header-mobile-trigger">
-						<div class="ast-button-wrap">
-				<button type="button" class="menu-toggle main-header-menu-toggle ast-mobile-menu-trigger-minimal" aria-expanded="false" aria-label="Main menu toggle">
-					<span class="screen-reader-text">Main Menu</span>
-					<span class="mobile-menu-toggle-icon">
-						<span aria-hidden="true" class="ahfb-svg-iconset ast-inline-flex svg-baseline"><svg class="ast-mobile-svg ast-menu-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24"><path d="M3 13h18c0.552 0 1-0.448 1-1s-0.448-1-1-1h-18c-0.552 0-1 0.448-1 1s0.448 1 1 1zM3 7h18c0.552 0 1-0.448 1-1s-0.448-1-1-1h-18c-0.552 0-1 0.448-1 1s0.448 1 1 1zM3 19h18c0.552 0 1-0.448 1-1s-0.448-1-1-1h-18c-0.552 0-1 0.448-1 1s0.448 1 1 1z"></path></svg></span><span aria-hidden="true" class="ahfb-svg-iconset ast-inline-flex svg-baseline"><svg class="ast-mobile-svg ast-close-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24"><path d="M5.293 6.707l5.293 5.293-5.293 5.293c-0.391 0.391-0.391 1.024 0 1.414s1.024 0.391 1.414 0l5.293-5.293 5.293 5.293c0.391 0.391 1.024 0.391 1.414 0s0.391-1.024 0-1.414l-5.293-5.293 5.293-5.293c0.391-0.391 0.391-1.024 0-1.414s-1.024-0.391-1.414 0l-5.293 5.293-5.293-5.293c-0.391-0.391-1.024-0.391-1.414 0s-0.391 1.024 0 1.414z"></path></svg></span>					</span>
-									</button>
-			</div>
-					</div>
-									</div>
-											</div>
-						</div>
-	</div>
-				<div class="ast-mobile-header-content content-align-flex-start ">
-						<div class="ast-builder-menu-mobile ast-builder-menu ast-builder-menu-mobile-focus-item ast-builder-layout-element site-header-focus-item" data-section="section-header-mobile-menu">
-			<div class="ast-main-header-bar-alignment"><div class="main-header-bar-navigation"><nav class="site-navigation ast-flex-grow-1 navigation-accessibility" id="ast-mobile-site-navigation" aria-label="Site Navigation" itemtype="https://schema.org/SiteNavigationElement" itemscope="itemscope"><div id="ast-hf-mobile-menu" class="main-navigation"><ul class="main-header-menu ast-nav-menu ast-flex  submenu-with-border astra-menu-animation-fade  stack-on-mobile"><li class="page_item page-item-26 menu-item"><a href="#Contact" class="menu-link">Contact</a></li><li class="page_item page-item-24 menu-item"><a href="#Despre" class="menu-link">Despre</a></li><li class="page_item page-item-8 current-menu-item menu-item current-menu-item"><a href="#Acasa" class="menu-link">ProEdu</a></li><li class="page_item page-item-25 menu-item"><a href="#Servicii" class="menu-link">Servicii</a></li></ul></div></nav></div></div>		</div>
-					</div>
-			</div>
-		</header><!-- #masthead -->
+</header>
+	<!-- #masthead -->
 			<div id="content" class="site-content">
 		<div class="ast-container">
 		
@@ -252,44 +339,55 @@ flexibility(document.documentElement);
 							<div class="elementor-menu-anchor" id="Acasa"></div>
 						</div>
 				<div class="elementor-element elementor-element-dc4b36e animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="dc4b36e" data-element_type="widget" data-settings='{"_animation":"fadeInUp"}' data-widget_type="heading.default">
-    <!-- Mutăm ID-ul direct pe heading pentru ancoră -->
-    <h1 id="Acasa" class="elementor-heading-title elementor-size-default">Educație de calitate, pentru viitorul copilului tău.</h1>
+   <!-- Mutăm ID-ul direct pe heading pentru ancoră -->
+<h1 id="Acasa" class="elementor-heading-title elementor-size-default">Educație de calitate, pentru viitorul copilului tău.</h1>
+
+<div class="elementor-element elementor-element-f3795ea animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="f3795ea" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+    <h2 class="elementor-heading-title elementor-size-default">La ProEdu Domnești, transformăm &icirc;nvățarea &icirc;ntr-un drum sigur spre performanță.</h2>
 </div>
 
-				<div class="elementor-element elementor-element-f3795ea animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="f3795ea" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">La ProEdu Domnești, transformăm &icirc;nvățarea &icirc;ntr-un drum sigur spre performanță.</h2>				</div>
-				<div class="elementor-element elementor-element-1579172 elementor-invisible elementor-widget elementor-widget-button" data-id="1579172" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="button.default">
-										<a class="elementor-button elementor-button-link elementor-size-sm" href="#Servicii">
-						<span class="elementor-button-content-wrapper">
-									<span class="elementor-button-text">Vezi cursurile disponibile</span>
-					</span>
-					</a>
-								</div>
-				</div>
-		<div class="elementor-element elementor-element-37cdb8c e-flex e-con-boxed e-con e-parent" data-id="37cdb8c" data-element_type="container">
-					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-7d5adba e-con-full animated-slow e-flex elementor-invisible e-con e-child" data-id="7d5adba" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;}">
-				<div class="elementor-element elementor-element-c2ca652 elementor-widget elementor-widget-menu-anchor" data-id="c2ca652" data-element_type="widget" data-widget_type="menu-anchor.default">
-							<div class="elementor-menu-anchor" id="Despre"></div>
-						</div>
-		<div class="elementor-element elementor-element-3970996 e-con-full e-flex e-con e-child" data-id="3970996" data-element_type="container">
-				<div class="elementor-element elementor-element-83433f4 elementor-widget elementor-widget-heading" data-id="83433f4" data-element_type="widget" data-widget_type="heading.default">
-    <!-- Mutăm ID-ul direct pe heading pentru ancoră -->
-    <h2 id="Despre" class="elementor-heading-title elementor-size-default">Construim azi rezultatele de mâine.</h2>
+<div class="elementor-element elementor-element-1579172 elementor-invisible elementor-widget elementor-widget-button" data-id="1579172" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="button.default">
+    <a class="elementor-button elementor-button-link elementor-size-sm" href="#Servicii">
+        <span class="elementor-button-content-wrapper">
+            <span class="elementor-button-text">Vezi cursurile disponibile</span>
+        </span>
+    </a>
 </div>
 
-				<div class="elementor-element elementor-element-218df53 elementor-widget elementor-widget-text-editor" data-id="218df53" data-element_type="widget" data-widget_type="text-editor.default">
-									<p>La ProEdu, oferim pregătire personalizată și cursuri interactive pentru elevi, adaptate nevoilor fiecăruia. Descoperă metode eficiente de &icirc;nvățare la limbi străine, limba rom&acirc;nă și matematică, cu resurse concepute să facă studiul plăcut, motivant și ușor de urmărit. Copilul tău va &icirc;nvăța &icirc;n ritmul său și va obține rezultate reale.</p>								</div>
-				<div class="elementor-element elementor-element-592dedf elementor-widget elementor-widget-button" data-id="592dedf" data-element_type="widget" data-widget_type="button.default">
-										<a class="elementor-button elementor-button-link elementor-size-sm" href="#Contact">
-						<span class="elementor-button-content-wrapper">
-									<span class="elementor-button-text">Contactează-ne!</span>
-					</span>
-					</a>
-								</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-d14d473 e-grid e-con-full animated-slow elementor-invisible e-con e-child" data-id="d14d473" data-element_type="container" data-settings='{"animation":"fadeInUp"}'>
+<div class="elementor-element elementor-element-37cdb8c e-flex e-con-boxed e-con e-parent" data-id="37cdb8c" data-element_type="container">
+    <div class="e-con-inner">
+        <div class="elementor-element elementor-element-7d5adba e-con-full animated-slow e-flex elementor-invisible e-con e-child" data-id="7d5adba" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;}">
+            
+            <div class="elementor-element elementor-element-c2ca652 elementor-widget elementor-widget-menu-anchor" data-id="c2ca652" data-element_type="widget" data-widget_type="menu-anchor.default">
+                <div class="elementor-menu-anchor" id="Despre"></div>
+            </div>
+            
+            <div class="elementor-element elementor-element-3970996 e-con-full e-flex e-con e-child" data-id="3970996" data-element_type="container">
+                <div class="elementor-element elementor-element-83433f4 elementor-widget elementor-widget-heading" data-id="83433f4" data-element_type="widget" data-widget_type="heading.default">
+                    <!-- Mutăm ID-ul direct pe heading pentru ancoră -->
+                    <h2 id="Despre" class="elementor-heading-title elementor-size-default">Construim azi rezultatele de mâine.</h2>
+                </div>
+                
+                <div class="elementor-element elementor-element-218df53 elementor-widget elementor-widget-text-editor" data-id="218df53" data-element_type="widget" data-widget_type="text-editor.default">
+                    <p>La ProEdu, oferim pregătire personalizată și cursuri interactive pentru elevi, adaptate nevoilor fiecăruia. Descoperă metode eficiente de &icirc;nvățare la limbi străine, limba rom&acirc;nă și matematică, cu resurse concepute să facă studiul plăcut, motivant și ușor de urmărit. Copilul tău va &icirc;nvăța &icirc;n ritmul său și va obține rezultate reale.</p>
+                </div>
+                
+                <div class="elementor-element elementor-element-592dedf elementor-widget elementor-widget-button" data-id="592dedf" data-element_type="widget" data-widget_type="button.default">
+                    <a class="elementor-button elementor-button-link elementor-size-sm" href="#Contact">
+                        <span class="elementor-button-content-wrapper">
+                            <span class="elementor-button-text">Contactează-ne!</span>
+                        </span>
+                    </a>
+                </div>
+            </div> <!-- .elementor-element-3970996 -->
+            
+        </div> <!-- .elementor-element-7d5adba -->
+    </div> <!-- .e-con-inner -->
+</div> <!-- .elementor-element-37cdb8c -->
+
+<div class="elementor-element elementor-element-d14d473 e-grid e-con-full animated-slow elementor-invisible e-con e-child" data-id="d14d473" data-element_type="container" data-settings='{"animation":"fadeInUp"}'>
+    <!-- Conținutul acestui container continuă aici -->
+</div>
 
     <!-- 1. Pregătire la limbi străine -->
     <div class="elementor-element elementor-element-be45d5c e-con-full e-flex e-con e-child" data-id="be45d5c" data-element_type="container">
